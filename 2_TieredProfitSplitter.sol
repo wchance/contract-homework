@@ -22,15 +22,15 @@ contract TieredProfitSplitter {
         uint total;
         uint amount;
 
-        amount = points * 75; // ceo get 75%
+        amount = points * 60; // ceo get 60%
         total += amount;
         employee_one.transfer(amount);
 
-        amount = points * 20; // cto get 20%
+        amount = points * 25; // cto get 25%
         total += amount;
         employee_two.transfer(amount);
 
-        amount = points * 5; // poor old bob gets 5%
+        amount = points * 15; // bob gets 15%
         total += amount;
         employee_three.transfer(amount);
 
