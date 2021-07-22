@@ -1,6 +1,6 @@
 # Looks like we have made our First Contract!
 
-### 1_AssociatedProfitSplitter.sol
+# **1_AssociatedProfitSplitter.sol**
 We created a smart contract that splits the msg.value equally to 3 predefined addresses and returns any change to msg.sender.  
 
 1.  Deployed Smart Contract 0x5a7927E98D2634d8338ea3543FC4Cbd112aFCA52
@@ -24,7 +24,7 @@ We created a smart contract that splits the msg.value equally to 3 predefined ad
 
     ![Balances](Images/1.3_split_to_employees.PNG)
 
-### 2_TieredProfitSplitter.sol
+# **2_TieredProfitSplitter.sol**
 In this smart contract example we split the msg.value unevenly amongst different employees using basis points.
 
 1.  Deployed Smart Contract 0xDe27302BaF1971244B9F44c8A4a4a94FCf53dBb0
@@ -48,7 +48,26 @@ In this smart contract example we split the msg.value unevenly amongst different
 
     ![Balances](Images/2.3_split_to_employees.PNG)
 
-### 3_DeferredEquityPlan.sol
+# **3_DeferredEquityPlan.sol**
 In this smart contract we keep track of employees stock incentive plan and use date to insure the employee is distributed annually.
 
+1.  Deploy Smart Contract 0x074419778FabffB605CcAd6b91b7DEDa69B57940
+
+    ![Deployed](Images/3.0_deploy_contract.PNG)
+
+2.  Attempt distribution before year anniversary.
+
+    ![Attempt distribute](Images/3.1_attempt_distribute.PNG)
+
+2.  Fast Forward 366 days
+
+    ![Fast Forward](Images/3.2_fast_forward.PNG)
+
+3.  distribute
+
+    ![Distribute](Images/3.3_distribute.PNG)
+
+4.  distributed shares
+
+    ![Distributed Shares](Images/3.4_distributed_shares.PNG)
 
