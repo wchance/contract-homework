@@ -6,9 +6,9 @@ We created a smart contract that splits the msg.value equally to 3 predefined ad
 1.  Deployed Smart Contract 0x5a7927E98D2634d8338ea3543FC4Cbd112aFCA52
 
     Deposits are split equally amongst these addresses
-    _ONE        0x6F04fA00Da809De1c80169b6dcAD70221Ec5f67f 
-    _TWO        0xd14F4d983b134DCF0Fdb622d96B193E6B3FA3050
-    _THREE      0x2b485Bc20176AC20ea7C346AD2afA8C517fc7895
+    - _ONE        0x6F04fA00Da809De1c80169b6dcAD70221Ec5f67f 
+    - _TWO        0xd14F4d983b134DCF0Fdb622d96B193E6B3FA3050
+    - _THREE      0x2b485Bc20176AC20ea7C346AD2afA8C517fc7895
 
     ![Deployed](Images/1.0_deploy_contract.PNG)
 
@@ -30,9 +30,9 @@ In this smart contract example we split the msg.value unevenly amongst different
 1.  Deployed Smart Contract 0xDe27302BaF1971244B9F44c8A4a4a94FCf53dBb0
 
     Deposits are split equally amongst these addresses
-    _ONE        0x3662553f4A22442D74D460dCd55351DbfB53066A
-    _TWO        0x53883486565dA721b82c39f756848Aa35BEeD507
-    _THREE      0x82525fA6C97e1049D72F46e0BED7ac2eDA0f057E
+    - _ONE        0x3662553f4A22442D74D460dCd55351DbfB53066A
+    - _TWO        0x53883486565dA721b82c39f756848Aa35BEeD507
+    - _THREE      0x82525fA6C97e1049D72F46e0BED7ac2eDA0f057E
 
     ![Deployed](Images/2.0_deploy_contract.PNG)
 
