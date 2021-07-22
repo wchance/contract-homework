@@ -13,10 +13,16 @@ We created a smart contract that splits the msg.value equally to 3 predefined ad
     ![Deployed](Images/1.0_deploy_contract.PNG)
 
 2.  Deposited 1.00 ETH to smart contract 0x5a7927E98D2634d8338ea3543FC4Cbd112aFCA52
+
     ![Deposit 1 ETH](Images/1.1_deposit_to_contract.PNG)
 
-3.  Confirmed on Ropsten 
+3.  Confirmed deposit on Ropsten 
+
     ![Confirmed](Images/1.2_deposit_confirmation.PNG)
+
+4.  Check balances of _ONE, _TWO, and _THREE
+
+    ![Balances](Images/1.3_split_to_employees.PNG)
 
 ### 2_TieredProfitSplitter.sol
 In this smart contract example we split the msg.value unevenly amongst different employees using basis points.
